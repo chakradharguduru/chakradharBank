@@ -1,0 +1,26 @@
+.account-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .account-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .transfer-section {
+    margin-top: 24px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+  }
+  
+  .transfer-section .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+  

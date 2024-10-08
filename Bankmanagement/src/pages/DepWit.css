@@ -1,0 +1,44 @@
+/* Container Styles */
+.dep-wit-container {
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Account Card Styles */
+  .account-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .account-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Typography */
+  .message {
+    margin: 20px 0;
+  }
+  
+  /* Button Styles */
+  .deposit-button,
+  .withdraw-button {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .deposit-button {
+    background-color: #4caf50; /* Green color */
+  }
+  
+  .withdraw-button {
+    background-color: #f44336; /* Red color */
+  }
+  

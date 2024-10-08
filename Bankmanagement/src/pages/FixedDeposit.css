@@ -1,0 +1,77 @@
+/* src/pages/FixedDeposit.css */
+.fd-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fd-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .fd-types {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .fd-type {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 30%; /* Adjust width */
+  }
+  
+  .fd-type:hover {
+    border-color: #007bff;
+  }
+  
+  .fd-type.selected {
+    border-color: #007bff;
+    background-color: #e6f0ff;
+  }
+  
+  .fd-form {
+    margin: 20px 0;
+  }
+  
+  .fd-form .MuiTextField-root,
+  .fd-form .MuiFormControl-root {
+    margin-bottom: 15px;
+  }
+  
+  .calculate-button {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .fd-chart {
+    margin: 20px auto;
+    width: 300px; /* Reduced size */
+    height: 300px; /* Reduced size */
+  }
+  
+  .fd-summary {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .apply-button {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .fd-message {
+    text-align: center;
+    color: #d9534f;
+    margin-top: 15px;
+  }
+  

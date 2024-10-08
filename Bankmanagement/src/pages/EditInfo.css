@@ -1,0 +1,90 @@
+/* EditInfo.css */
+
+.edit-info-container {
+    width: 80%;
+    margin: 50px auto;
+    background: #f4f4f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 30px; /* Inner padding for spacing */
+  }
+  
+  .customer-info-box {
+    padding: 20px; /* Inner padding */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    background: #fff; /* White background for the info box */
+  }
+  
+  .customer-info-title {
+    margin-bottom: 20px; /* Space below title */
+    color: #333; /* Dark text color */
+    font-weight: 500; /* Medium font weight */
+  }
+  
+  .customer-info-form {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column direction */
+    gap: 15px; /* Space between fields */
+  }
+  
+  .input-field {
+    margin: 10px 0; /* Margin around input fields */
+  }
+  
+  .action-buttons {
+    margin-top: 20px; /* Space above action buttons */
+    display: flex; /* Flexbox for button alignment */
+    justify-content: space-between; /* Space between buttons */
+  }
+  
+  .image-section {
+    margin-top: 20px; /* Space above image section */
+    border: 1px solid #ddd; /* Light border around image section */
+    padding: 15px; /* Inner padding for image section */
+    border-radius: 8px; /* Rounded corners for the image section */
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: space-around; /* Space images evenly */
+    align-items: center; /* Center images vertically */
+  }
+  
+  .image-preview {
+    width: 100px; /* Fixed width for image previews */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Space above images */
+    border: 1px solid #ddd; /* Light border around images */
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  
+  .message {
+    margin: 10px 0; /* Space around messages */
+    font-weight: bold; /* Bold font for messages */
+    color: #d32f2f; /* Red color for error messages */
+  }
+  
+  /* Additional styling for the buttons */
+  button {
+    min-width: 120px; /* Minimum width for buttons */
+  }
+  
+  button:hover {
+    opacity: 0.8; /* Slight opacity on hover */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .edit-info-container {
+      width: 95%; /* Full width on smaller screens */
+    }
+  
+    .input-field {
+      margin: 5px 0; /* Smaller margin on mobile */
+    }
+  
+    .action-buttons {
+      flex-direction: column; /* Stack buttons on mobile */
+      align-items: flex-start; /* Align buttons to the left */
+    }
+  }
+  

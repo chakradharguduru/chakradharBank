@@ -1,0 +1,18 @@
+.account-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .account-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .account-card button {
+    margin-top: 8px;
+  }
+  

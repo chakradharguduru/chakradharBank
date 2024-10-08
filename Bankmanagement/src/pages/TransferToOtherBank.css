@@ -1,0 +1,18 @@
+.transfer-to-other-bank {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .options-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .option-button {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+  }
+  

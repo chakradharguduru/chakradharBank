@@ -1,0 +1,47 @@
+/* src/pages/Login.css */
+.login-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-heading {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 20px;
+    color: red; /* You can change the color as needed */
+  }
+
+  /* login.css */
+
+.loan-info-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .loan-item {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
